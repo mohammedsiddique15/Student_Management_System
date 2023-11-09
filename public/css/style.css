@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: cadetblue;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 1000px;
+    width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 18px;
+    color: tomato;
+    padding: 10px;
+    border-bottom: 1px solid red;
+}
+table{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+table thead td{
+    padding: 5px;
+    background-color: lightslategray;
+    color: wheat;
+}
+table tbody td{
+    padding: 5px;
+}
+table tbody tr:nth-child(even){
+    background-color: lightgray;
+}
+.edit,.delete,.addbtn{
+    text-decoration: none;
+    color: white;
+    padding: 2px 10px 2px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+.delete{
+    background-color: red;
+}
+p{
+    text-align: right;
+    padding: 5px;
+}
+.addbtn{
+    background-color: blue;
+}
+
+.form-group{
+    margin-top: 10px;
+    padding: 5px;
+}
+.form-group label, .form-group input{
+    display: block;
+}
+button{
+    color: white;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    border: none;
+    font-size: 16px;
+}
+.alert{
+    display: block;
+    padding: 5px;
+    background-color: forestgreen;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+}
+input{
+    font-size: 12px;
+}
+.viewall{
+    text-decoration: none;
+    border: 1px solid green;
+    background-color: green;
+    padding: 3px 2px;
+    color: #fff;
+    border-radius: 5px;
+}
